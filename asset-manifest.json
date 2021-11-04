@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/TaynaCT/TaynaCT.github.io.git/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/TaynaCT/TaynaCT.github.io.git/static/js/main.ce54ad84.chunk.js",
+    "main.js.map": "/TaynaCT/TaynaCT.github.io.git/static/js/main.ce54ad84.chunk.js.map",
+    "runtime-main.js": "/TaynaCT/TaynaCT.github.io.git/static/js/runtime-main.b94c2a17.js",
+    "runtime-main.js.map": "/TaynaCT/TaynaCT.github.io.git/static/js/runtime-main.b94c2a17.js.map",
+    "static/js/2.0a637b14.chunk.js": "/TaynaCT/TaynaCT.github.io.git/static/js/2.0a637b14.chunk.js",
+    "static/js/2.0a637b14.chunk.js.map": "/TaynaCT/TaynaCT.github.io.git/static/js/2.0a637b14.chunk.js.map",
+    "static/js/3.269fd951.chunk.js": "/TaynaCT/TaynaCT.github.io.git/static/js/3.269fd951.chunk.js",
+    "static/js/3.269fd951.chunk.js.map": "/TaynaCT/TaynaCT.github.io.git/static/js/3.269fd951.chunk.js.map",
+    "index.html": "/TaynaCT/TaynaCT.github.io.git/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/TaynaCT/TaynaCT.github.io.git/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.0a637b14.chunk.js.LICENSE.txt": "/TaynaCT/TaynaCT.github.io.git/static/js/2.0a637b14.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/TaynaCT/TaynaCT.github.io.git/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b94c2a17.js",
+    "static/js/2.0a637b14.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.ce54ad84.chunk.js"
+  ]
+}
