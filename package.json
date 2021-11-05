@@ -1,6 +1,10 @@
 {
   "name": "taynact.github.io",
+<<<<<<< HEAD
   "homepage": "https://github.com/TaynaCT/TaynaCT.github.io",
+=======
+  "homepage": "https://github.com/TaynaCT/TaynaCT.github.io.git",
+>>>>>>> parent of 1d433891 (Updates)
   "version": "0.1.0",
   "private": true,
   "dependencies": {
