@@ -1,0 +1,33 @@
+body {
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background: linear-gradient(-45deg, #404de7, #3cade7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-family: Zen Antique;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-family: roboto;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
