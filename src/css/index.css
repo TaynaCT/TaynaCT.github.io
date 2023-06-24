@@ -1,0 +1,150 @@
+@import 'keyframes.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Body background*/
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+	height: 100vh;  
+  animation: gradient 15s ease infinite;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+/*divs*/
+
+ /* Header Styles */
+ #top-navbar nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;  
+  background-color: #ffffff;
+  color:  rgb(31, 31, 31);
+  box-shadow:  rgb(0, 0, 0);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;    
+  display: flex;
+  width: 100%;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  display: none;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#navbar ul li a {
+  color: rgb(31, 31, 31);
+  text-decoration: none;
+}
+
+ /* Main Styles */
+ #hello-container{
+  align-items: center;   
+  height: 100vh; /*Vertical Height*/  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ }
+ 
+ #main-hello {
+  width: 365px;
+  height: 290px;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, auto);
+  column-gap: 0px;
+  text-align: left;
+  justify-items: left;
+  align-items: center;
+  
+  animation-name: fadeUp;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+ }  
+
+#main-hello h1 {
+  color: aliceblue;
+  font-size: 2em;  
+  line-height:0.2em;
+  font-family: Zen Antique, Georgia, Garamond, serif;
+  padding-bottom: 0;
+  order: 1;
+  margin-bottom: 0.1em;
+ }
+
+ #main-hello h2 {
+  color: aliceblue;
+  font-size: 1.2em;
+  padding-top: 1.5%;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  order: 3;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+ }
+
+ #main-hello p {
+  color: aliceblue;
+  padding-top: 0.5%;    
+  font-size: 1em;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  order: 4;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em; 
+ }
+
+#main-hello hr {
+  height: 1.5px;
+  width: 245px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  border-width:0;
+  order: 2;
+  margin-left: 0;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+}
+
+#hello-icons {
+  order: 5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 35px;
+  column-gap:  10px;  
+  margin-right: 186px;
+  align-items: center;
+  height: 35px;
+  color: aliceblue;
+}
+
+ /*Classes*/
+
+.icon:hover{
+  opacity: 0.7;
+  color: aliceblue;
+}
+
+.icon:link, .icon:visited {
+  color: aliceblue; 
+  cursor: auto;
+}
+
+ .section {
+  height: 100vh;
+  background-color: #ffffff;
+  color:  rgb(31, 31, 31);
+  box-shadow:  rgb(0, 0, 0); 
+  border-radius: 20px;
+ }
